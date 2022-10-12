@@ -1,0 +1,65 @@
+INFO:	10:07:43 create_c1 over
+
+INFO:	10:07:43 generate_lk_by_ck start
+
+INFO:	10:07:43 generate_lk_by_ck item_count over
+
+INFO:	10:07:43 generate_lk_by_ck over
+
+INFO:	10:07:43 k=1 over
+
+INFO:	10:07:43 create_c2 over
+
+INFO:	10:07:43 generate_lk_by_ck start
+
+INFO:	10:07:43 generate_lk_by_ck item_count over
+
+INFO:	10:07:43 generate_lk_by_ck over
+
+INFO:	10:07:43 k=2 over
+
+INFO:	10:07:43 create_c3 over
+
+INFO:	10:07:43 generate_lk_by_ck start
+
+INFO:	10:07:43 generate_lk_by_ck item_count over
+
+INFO:	10:07:43 generate_lk_by_ck over
+
+INFO:	10:07:43 k=3 over
+
+INFO:	10:07:43 create_c4 over
+
+INFO:	10:07:43 generate_lk_by_ck start
+
+INFO:	10:07:43 generate_lk_by_ck item_count over
+
+INFO:	10:07:43 generate_lk_by_ck over
+
+INFO:	10:07:43 generate_l over
+
+INFO:	10:07:43 generate_big_rule over
+
+INFO:	10:07:43 item_sets of 7:		support
+{'面包'}	0.8
+{'水'}	1.0
+{'泡面'}	1.0
+{'面包', '水'}	0.8
+{'泡面', '水'}	1.0
+{'泡面', '面包'}	0.8
+{'泡面', '面包', '水'}	0.8
+
+INFO:	10:07:43 Big Rules of 12:
+{'水'}=>{'面包'}	conf:	0.8
+{'面包'}=>{'水'}	conf:	1.0
+{'泡面'}=>{'水'}	conf:	1.0
+{'水'}=>{'泡面'}	conf:	1.0
+{'泡面'}=>{'面包'}	conf:	0.8
+{'面包'}=>{'泡面'}	conf:	1.0
+{'泡面', '水'}=>{'面包'}	conf:	0.8
+{'泡面', '面包'}=>{'水'}	conf:	1.0
+{'面包', '水'}=>{'泡面'}	conf:	1.0
+{'泡面'}=>{'面包', '水'}	conf:	0.8
+{'面包'}=>{'泡面', '水'}	conf:	1.0
+{'水'}=>{'泡面', '面包'}	conf:	0.8
+
